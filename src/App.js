@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Weather from './Weather';
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <h1>HELLO EVERYONE!!!!</h1>
+        <Weather city="Tokyo"/>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -17,6 +20,15 @@ function App() {
         >
           Learn React
         </a>
+        <a
+          className="App-link"
+          href="https://shecodes.io"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          SheCodes
+        </a>
+        
       </header>
     </div>
   );
