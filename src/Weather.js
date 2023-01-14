@@ -1,7 +1,7 @@
 import React from "react";
 import { Audio } from 'react-loader-spinner';
 
-import axios, {isCancel, AxiosError} from 'axios';
+import axios from 'axios';
 
 export default function Weather(props) {
     function handleResponse(response) {
